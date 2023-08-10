@@ -1,0 +1,23 @@
+<SharedData>
+    <ElectricalData>
+        <EMVApplication AID="A0000005360001">
+            <KeyAlias alias="RSA" label="G13B6.TEST.PK63964515.RSA.01">
+                <Certificate index="FF" iin="63964515FF" type="SNC"/>
+            </KeyAlias>
+        </EMVApplication>
+        <EMVApplication AID="325041592E5359532E4444463031"/>
+    </ElectricalData>
+    <KeyAliasList>
+        <KeyAlias alias="KEK" label="G13B6.TEST.KEK.KEK.01"/>
+        <KeyAlias alias="PEK" label="G13B6.TEST.PEK.KEK.01"/>
+        <KeyAlias alias="KTU_KEK" label="G13B6.TEST.KEK.KEK.01"/>
+        <KeyAlias alias="TKCK" label="MLT.TEST.TKCK0203.RSA.03"/>
+        <KeyAlias alias="APPK" label="G13B6.TEST.APPK.RSA.01"/>
+        <KeyAlias alias="HASH" label="MLT.TEST.HASH0274.RSA.00"/>
+        <!--  <KeyAlias alias="KEKPIN" label="G09D0.LIVE.KEK.KEK.01"/> -->
+        <KeyAlias alias="IMKAC" label="G13B6.TEST.CLAVEPUREDI.IMKAC.01"/>
+        <KeyAlias alias="IMKI" label="G13B6.TEST.CLAVEPUREDI.IMKI.01"/>
+        <KeyAlias alias="IMKC" label="G13B6.TEST.CLAVEPUREDI.IMKC.01"/>
+        <KeyAlias alias="IMKIDN" label="G13B6.TEST.CLAVEPUREDI.IMKI.01"/>
+    </KeyAliasList>
+</SharedData>
